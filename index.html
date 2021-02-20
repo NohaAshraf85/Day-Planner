@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./Assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -28,11 +28,92 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
-      <!-- Timeblocks go here -->
+    <div class="container" id="timeblocksConrainer">
+      <!-- Timeblocks go here -->   
+        <div class="row" >
+            <div class="col-12 d-flex">
+                <label class="hour">9AM</label>
+                <textarea id="calendarTextArea0"></textarea>
+                <button  type="button" class="btn btn-primary saveBtn" value="0"><i class="fas fa-save"></i></button>
+            </div>
+            
+        </div>
+        <div class="row" >
+            <div class="col-12 d-flex">
+                <label class="hour">10AM</label>
+        
+                <textarea id="calendarTextArea1"></textarea>
+  
+                <button  type="button" class="btn btn-primary saveBtn" value="1"><i class="fas fa-save"></i></button>
+            </div>
+        </div>
+        <div class="row" >
+            <div class="col-12 d-flex">
+                <label class="hour">11AM</label>
+      
+                <textarea id="calendarTextArea2"></textarea>
+       
+                <button  type="button" class="btn btn-primary saveBtn" value="2"><i class="fas fa-save"></i></button>
+            </div>
+        </div>
+        <div class="row" >
+            <div class="col-12 d-flex">
+                <label class="hour">12AM</label>
+          
+                <textarea id="calendarTextArea3"></textarea>
+       
+                <button  type="button" class="btn btn-primary saveBtn" value="3"><i class="fas fa-save"></i></button>
+            </div>
+        </div>
+        <div class="row" >
+            <div class="col-12 d-flex">
+                <label class="hour">1PM</label>
+         
+                <textarea id="calendarTextArea4"></textarea>
+        
+                <button  type="button" class="btn btn-primary saveBtn" value="4"><i class="fas fa-save"></i></button>
+            </div>
+        </div>
+        <div class="row" >
+            <div class="col-12 d-flex">
+                <label class="hour">2PM</label>
+           
+                <textarea id="calendarTextArea5"></textarea>
+       
+                <button  type="button" class="btn btn-primary saveBtn" value="5"><i class="fas fa-save"></i></button>
+            </div>
+        </div>
+        <div class="row" >
+            <div class="col-12 d-flex">
+                <label class="hour">3PM</label>
+     
+                <textarea id="calendarTextArea6"></textarea>
+        
+                <button  type="button" class="btn btn-primary saveBtn" value="6"><i class="fas fa-save"></i></button>
+            </div>
+        </div>
+        <div class="row" >
+            <div class="col-12 d-flex">
+                <label class="hour">4PM</label>
+                <textarea id="calendarTextArea7"></textarea>
+                <button  type="button" class="btn btn-primary saveBtn" value="7"><i class="fas fa-save"></i></button>
+           
+            </div>
+       
+        </div>
+        <div class="row" >
+            <div class="col-12 d-flex">
+                <label class="hour">5PM</label>
+                <textarea id="calendarTextArea8"></textarea>
+                <button  type="button" class="btn btn-primary saveBtn" value="8"><i class="fas fa-save"></i></button>
+         
+            </div>
+         
+        </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./Assets/scripts/scripts.js"></script>
   </body>
 </html>
