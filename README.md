@@ -15,7 +15,7 @@ Accessing the Application: [Work Day Planner](https://nohaashraf85.github.io/Day
 4. moment.js
 
 ## How it works:
-1. Upon accessing the calendar, the user is presented with a one page application that displays the current date (Day of the weeb, Month, Day of the Month)
+1. Upon accessing the calendar, the user is presented with a one page application that displays the current date (Day of the week, Month, Day of the Month)
 
 ![Homepage](./Assets/images/Homepage1.png)
 
