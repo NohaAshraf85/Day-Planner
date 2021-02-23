@@ -1,12 +1,12 @@
-# Work-Day-Scheduler-Calendar
+# Work Day Planner
 ## Project Overview:
-This simple Work-Day Schduler, displays a calendar of the current day, the user can access the timeblocks and enter the items to be scheduled and press save to see the inputs through the day.
+This simple Work Day Planner, displays a calendar of the current day, the user can access the timeblocks and enter the items to be scheduled and press save to see the inputs through the day.
 
 The calendar is designed to follow the 9 to 5 working hours. 
 
 The calendar is color coded so that the past timeblock is grey, the current timeblock is red while the future timeblock is green.
 
-Accessing the Application: [Work-Day-Schedule](https://nohaashraf85.github.io/Work-Day-Scheduler-Calendar/)
+Accessing the Application: [Work Day Planner](https://nohaashraf85.github.io/Work-Day-Scheduler-Calendar/)
 
 ## Technologies Used:
 1. HTML
@@ -19,7 +19,7 @@ Accessing the Application: [Work-Day-Schedule](https://nohaashraf85.github.io/Wo
 
 ![Homepage](./Assets/images/Homepage.png)
 
-2. The Work-Day Scheduler displays the usual working hours as a default, (9-5), and the timeblocks are set to be on hourly basis
+2. The Work Day Planner displays the usual working hours as a default, (9-5), and the timeblocks are set to be on hourly basis
 
 ![ninetofiveworkday](./Assets/images/nineToFiveWorkDay.png)
 
